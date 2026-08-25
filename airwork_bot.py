@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-airwork_bot.py v3.0 — メインエントリーポイント
-変更点:
-  - AirWorkBot.__init__ が ConfigLoader を受け取り、Base + 各 Mixin に渡す
-  - GUI から tab_name は Config タブ経由で自動取得済み
-"""
-
 from bot_core     import AirWorkBotBase, load_config, save_config
 from page1        import Page1Mixin
 from page2        import Page2Mixin
