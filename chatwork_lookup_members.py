@@ -1,19 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-chatwork_lookup_members.py
-===========================================================================
-指定したChatworkルームのメンバー一覧（名前 + account_id）を表示する
-確認用スクリプト。chatwork_config.json の boss_account_id が正しいかの
-確認、または他のメンバーのaccount_idを調べたい場合に1回だけ実行する。
-
-使い方:
-    python chatwork_lookup_members.py
-
-chatwork_config.json（api_token / room_id）を読み込んで使用する。
-===========================================================================
-"""
-
 import requests
 from chatwork_notifier import _load_config, CHATWORK_API_BASE
 
